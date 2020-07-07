@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["Building"],{d573:function(n,e,t){"use strict";t.r(e);var c=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[n._v(" 正在建设中... ")])},i=[],u={},l=u,r=t("2877"),s=Object(r["a"])(l,c,i,!1,null,"0b66355c",null);e["default"]=s.exports}}]);
+//# sourceMappingURL=Building.68278f58.js.map
