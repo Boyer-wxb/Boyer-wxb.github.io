@@ -6,6 +6,10 @@
             left-arrow
             @click-left="onClickLeft"
         /> -->
+        <div class="download" @click="download">
+            <van-icon name="orders-o" />
+            <span>下载</span>
+        </div>
         <div class="top">
             <div class="name">{{name}}</div>
             <div class="job">求职意向：{{job}}</div>
@@ -164,6 +168,10 @@
             onClickLeft() {
                 console.log('返回');
             },
+            download(){
+                const url = 'https://boyer-wxb.github.io/profile/src/assetes/个人简历.docx'
+                window.open(url)
+            }
         }
     }
 </script>
@@ -172,7 +180,13 @@
 $color:rgb(53,61,69);
 $gray:rgb(242,242,242);
 
+.download{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
 .profile{
+    position:relative;
     font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
     // border-left: 10px solid $color;
     // border-right: 10px solid $color;
