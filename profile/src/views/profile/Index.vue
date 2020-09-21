@@ -169,7 +169,7 @@
                 console.log('返回');
             },
             download(){
-                const url = 'https://boyer-wxb.github.io/profile/src/assetes/个人简历.docx'
+                const url = 'https://boyer-wxb.github.io/profile/src/assets/个人简历.docx'
                 window.open(url)
             }
         }
