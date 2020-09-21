@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["Blog"],{fd3f:function(e,t,n){"use strict";n.r(t);var r=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",[e._v(" "+e._s(e.type)+" ")])},u=[],c={name:"Blog",data:function(){return{type:this.$route.query.type}},created:function(){}},o=c,a=n("2877"),i=Object(a["a"])(o,r,u,!1,null,"3c03b284",null);t["default"]=i.exports}}]);
-//# sourceMappingURL=Blog.51a9dec0.js.map
